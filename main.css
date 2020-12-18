@@ -1,0 +1,8 @@
+.poop-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poop {
+  width: 30%;
+}
