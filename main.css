@@ -1,7 +1,11 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
 .poop-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .poop {
   width: 30%;
