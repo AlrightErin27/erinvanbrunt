@@ -5,19 +5,20 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Erin Van Brunt's Portfolio</title>
+        <title>EVB Portfolio</title>
         {/* Erin's Blue logo  */}
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Erin <br /> Van Brunt
+          Erin
+          <br />
+          Van
+          <br />
+          Brunt
         </h1>
-
-        <div className={styles.grid}>
-          {/* <h3>This is where a grid goes?</h3> */}
-        </div>
+        <h3 className={styles.subTitle}>Front-end Software Engineer</h3>
       </main>
     </div>
   );

@@ -1,3 +1,26 @@
+/* ---------------------IMPORTED FONTS-------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Limelight&family=Poiret+One&display=swap");
+/* font-family: 'Damion', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Poiret One', cursive; */
+/* ---------------------HOME PG-------------------- */
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #3f00ff;
+}
+.title {
+  font-family: "Limelight", cursive;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 11rem;
+  text-align: left;
+}
+
 /* ---------------------OLD CSS-------------------- */
 /* .container {
   min-height: 100vh;
