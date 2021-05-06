@@ -11,10 +11,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>💮 EVB 💮</h1>
+        <h1 className={styles.title}>
+          Erin <br /> Van Brunt
+        </h1>
 
         <div className={styles.grid}>
-          <h3>This is where a grid goes?</h3>
+          {/* <h3>This is where a grid goes?</h3> */}
         </div>
       </main>
     </div>
