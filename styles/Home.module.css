@@ -3,58 +3,24 @@
 /* font-family: 'Damion', cursive;
 font-family: 'Limelight', cursive;
 font-family: 'Poiret One', cursive; */
+
 /* ---------------------HOME PG-------------------- */
 .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  background-color: #3f00ff;
-}
-.title {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: #0026ff;
   font-family: "Limelight", cursive;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 11rem;
-  text-align: left;
-}
-
-/* ---------------------OLD CSS-------------------- */
-/* .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
+  color: black;
   justify-content: center;
   align-items: center;
+  font-size: 14rem;
 }
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* ---------------------NAME-------------------- */
+.allLetters {
+  color: green;
 }
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  text-align: center;
+.letter0 {
+  color: red;
 }
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-} */

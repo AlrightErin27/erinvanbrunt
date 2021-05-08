@@ -1,7 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import React, { useState } from "react";
 
 export default function Home() {
+  // SET STATE //
+  const [isActive, setActive] = useState("false");
+
+  const handleGlow = () => {
+    setActive(!isActive);
+  };
+  // --------------------------------------------------- //
   return (
     <div className={styles.container}>
       <Head>
@@ -11,14 +19,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Erin
-          <br />
-          Van
-          <br />
-          Brunt
-        </h1>
-        <h3 className={styles.subTitle}>Front-end Software Engineer</h3>
+        <div
+          className={isActive ? styles.allLetters : styles.letter0}
+          onMouseOver={handleGlow}
+        >
+          E
+        </div>
+
+        {/* <div className={styles.letter1}>R</div>
+        <div className={styles.letter2}>I</div>
+        <div className={styles.letter3}>N</div> */}
       </main>
     </div>
   );
