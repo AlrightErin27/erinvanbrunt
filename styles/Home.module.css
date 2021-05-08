@@ -8,7 +8,7 @@ font-family: 'Poiret One', cursive; */
 .main {
   padding: 0;
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   background: #0026ff;
   font-family: "Limelight", cursive;
   display: flex;
@@ -31,25 +31,25 @@ font-family: 'Poiret One', cursive; */
 
 .letters {
   color: black;
-  font-size: 10rem;
+  font-size: 8vw;
 }
 .letterSpace {
   color: black;
-  font-size: 10rem;
   padding: 0 0 0 70px;
+  font-size: 8vw;
 }
 .glowLetter {
-  font-size: 10rem;
   color: #fff;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+  font-size: 8vw;
 }
 .glowLetterSpace {
   padding: 0 0 0 70px;
-  font-size: 10rem;
   color: #fff;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+  font-size: 8vw;
 }
