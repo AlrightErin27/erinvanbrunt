@@ -15,12 +15,41 @@ font-family: 'Poiret One', cursive; */
   color: black;
   justify-content: center;
   align-items: center;
-  font-size: 14rem;
 }
 /* ---------------------NAME-------------------- */
-.allLetters {
-  color: green;
+/* GLOW ANIMATION */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff58a,
+      0 0 40px #e6e600db, 0 0 50px #e6e600eb, 0 0 60px #00e696, 0 0 70px #00e6d7;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dcaff, 0 0 40px #4d53ff,
+      0 0 50px #e1e1f0b8, 0 0 60px #fff04d, 0 0 70px #4dbbff, 0 0 80px #fffda4;
+  }
 }
-.letter0 {
-  color: red;
+
+.letters {
+  color: black;
+  font-size: 10rem;
+}
+.letterSpace {
+  color: black;
+  font-size: 10rem;
+  padding: 0 0 0 70px;
+}
+.glowLetter {
+  font-size: 10rem;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glowLetterSpace {
+  padding: 0 0 0 70px;
+  font-size: 10rem;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
