@@ -6,14 +6,14 @@ font-family: 'Poiret One', cursive; */
 
 /* ---------------------HOME PG-------------------- */
 .main {
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  /* height: 100vh; */
+  height: 50vh;
   background: #0026ff;
   font-family: "Limelight", cursive;
   display: flex;
   color: black;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 /* ---------------------NAME-------------------- */
@@ -28,7 +28,6 @@ font-family: 'Poiret One', cursive; */
       0 0 50px #e1e1f0b8, 0 0 60px #fff04d, 0 0 70px #4dbbff, 0 0 80px #fffda4;
   }
 }
-
 .letters {
   color: black;
   font-size: 8vw;
@@ -52,4 +51,30 @@ font-family: 'Poiret One', cursive; */
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
   font-size: 8vw;
+}
+/* ---------------------JOB TITLE------------------- */
+.jobTitleContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.jobTitle {
+  font-size: 5vw;
+  font-family: "Poiret One", cursive;
+  position: relative;
+  animation: glitch 5s 55s infinite;
+  padding: 20px;
+}
+@keyframes glitch {
+  1% {
+    transform: rotateX(10deg) skewX(90deg);
+  }
+  2% {
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+/* ------------------------------SKILLS GRID-------------------------- */
+.icon0 {
+  /* background-image: url "/icons/axios.png"; */
+  height: 130px;
+  width: 130px;
 }

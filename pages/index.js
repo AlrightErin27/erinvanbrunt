@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Skills from "../pages/skills";
 import styles from "../styles/Home.module.css";
 import React, { useState } from "react";
 
@@ -59,7 +60,7 @@ export default function Home() {
       <Head>
         <title>EVB Portfolio</title>
         {/* Erin's Blue logo  */}
-        <link rel="icon" href="/favicon.png" />
+        {/* <link rel="icon" href="/favicon.png" /> */}
       </Head>
 
       <main className={styles.main}>
@@ -138,7 +139,13 @@ export default function Home() {
         >
           T
         </div>
+
+        {/*-------------------- JOB TITLE --------------------*/}
+        <div className={styles.jobTitleContainer}>
+          <h2 className={styles.jobTitle}>Front-end Software Engineer</h2>
+        </div>
       </main>
+      <Skills />
     </div>
   );
 }
