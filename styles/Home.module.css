@@ -34,7 +34,7 @@ font-family: 'Poiret One', cursive; */
 }
 .letterSpace {
   color: black;
-  padding: 0 0 0 70px;
+  padding: 0 0 0 1.5vw;
   font-size: 8vw;
 }
 .glowLetter {
@@ -45,7 +45,7 @@ font-family: 'Poiret One', cursive; */
   font-size: 8vw;
 }
 .glowLetterSpace {
-  padding: 0 0 0 70px;
+  padding: 0 0 0 1.5vw;
   color: #fff;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
