@@ -2,6 +2,7 @@ import Head from "next/head";
 import Skills from "../pages/skills";
 import styles from "../styles/Home.module.css";
 import React, { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   // SET STATE //
