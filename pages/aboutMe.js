@@ -4,16 +4,11 @@ import styles from "../styles/Home.module.css";
 export default function aboutMe() {
   return (
     <div className={styles.aboutMeContainer}>
-      <div className={styles.meContainer}>
-        <Image
-          className={styles.me}
-          src="/me.png"
-          alt="Erin"
-          layout="responsive"
-          width={1}
-          height={1}
-        />
-      </div>
+      <button>RESUME</button>
+      <button>Q-TIP GAME</button>
+      <button>CASTERLY ROCK</button>
+      <button>PARLOR OF FORTUNE</button>
+      <button>CHOOSE YOUR OWN ADVENTURE</button>
     </div>
   );
 }

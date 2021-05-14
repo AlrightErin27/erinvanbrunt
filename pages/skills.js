@@ -10,7 +10,6 @@ export default function Skills() {
             className={styles.icon}
             src="/icons/api.png"
             alt="api"
-            layout="responsive"
             height={50}
             width={50}
           />

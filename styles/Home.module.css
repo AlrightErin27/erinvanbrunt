@@ -77,7 +77,7 @@ font-family: 'Poiret One', cursive; */
 .singleIconContainer {
   object-fit: fill;
   position: relative;
-  font-size: 0px;
+  font-size: 1.5vh;
   color: transparent;
   display: block;
   align-items: center;
@@ -94,13 +94,5 @@ font-family: 'Poiret One', cursive; */
 }
 /* ------------------------------ABOUT ME-------------------------- */
 .aboutMeContainer {
-  background-color: rgba(188, 232, 228, 0.366);
-  /* background-image: url("../public/brand.png"); */
-  height: 130%;
-  /* background-repeat: no-repeat;
-  background-position: 100% 70%; */
-}
-.meContainer {
-  height: 30vh;
-  width: 30vw;
+  background-color: rgba(188, 232, 228, 0.633);
 }
