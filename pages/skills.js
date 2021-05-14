@@ -134,7 +134,7 @@ export default function Skills() {
             width={50}
           />
           <br />
-          <span>JAVA SCRIPT</span>
+          <span>JAVASCRIPT</span>
         </div>
 
         <div className={styles.singleIconContainer}>

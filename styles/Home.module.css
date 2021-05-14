@@ -87,6 +87,7 @@ font-family: 'Poiret One', cursive; */
 .singleIconContainer:hover {
   color: black;
   font-size: 1.5vh;
+  font-family: "Poiret One", cursive;
 }
 .span {
   padding: 100px;
