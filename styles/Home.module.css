@@ -75,6 +75,7 @@ font-family: 'Poiret One', cursive; */
   flex-wrap: wrap;
 }
 .singleIconContainer {
+  object-fit: fill;
   height: 10vh;
   position: relative;
   font-size: 0px;
@@ -91,4 +92,13 @@ font-family: 'Poiret One', cursive; */
 }
 .span {
   padding: 100px;
+}
+/* ------------------------------ABOUT ME-------------------------- */
+.aboutMeContainer {
+  background-color: rgba(188, 232, 228, 0.366);
+  height: 30vh;
+}
+.meContainer {
+  height: 30vh;
+  width: 30vw;
 }

@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Skills from "../pages/skills";
+import AboutMe from "../pages/aboutMe";
 import styles from "../styles/Home.module.css";
 import React, { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   // SET STATE //
@@ -147,6 +148,7 @@ export default function Home() {
         </div>
       </main>
       <Skills />
+      <AboutMe />
     </div>
   );
 }
