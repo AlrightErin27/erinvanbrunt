@@ -65,7 +65,7 @@ font-family: 'Poiret One', cursive; */
 }
 /* ------------------------------SKILLS GRID-------------------------- */
 .iconContainer {
-  background-color: rgb(188, 232, 228);
+  background-color: rgb(168, 223, 219);
   text-align: center;
   padding: 2vw;
   display: flex;
@@ -92,7 +92,42 @@ font-family: 'Poiret One', cursive; */
 .span {
   padding: 100px;
 }
-/* ------------------------------ABOUT ME-------------------------- */
-.aboutMeContainer {
-  background-color: rgba(188, 232, 228, 0.633);
+
+/* ------------------------------RESUME-------------------------- */
+.resumeContainer {
+  background-color: rgba(188, 232, 228, 0.804);
+  text-align: center;
+}
+.resumeButton {
+  font-size: 1.8vw;
+  height: 5vh;
+  width: 13vw;
+  font-family: "Limelight", cursive;
+  margin: 3vh 0 3vh 0;
+  background-color: rgb(73, 121, 121);
+}
+/* ------------------------------Projects-------------------------- */
+.projectsContainer {
+  background-color: rgba(227, 244, 242, 0.695);
+}
+.resumeButton:hover {
+  background-color: rgb(27, 36, 36);
+  color: white;
+}
+.projects {
+  font-family: "Damion", cursive;
+  font-size: 3vw;
+  margin: 0 0 -0.1vh 2vw;
+}
+.projectsButton {
+  font-size: 1.5vw;
+  height: 5vh;
+  width: 19vw;
+  margin: 0 1vw 3vh 3vw;
+  font-family: "Limelight", cursive;
+  background-color: rgb(236, 224, 249);
+}
+.projectsButton:hover {
+  background-color: rgb(105, 86, 126);
+  color: white;
 }
