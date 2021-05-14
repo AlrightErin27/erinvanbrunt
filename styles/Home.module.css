@@ -8,12 +8,11 @@ font-family: 'Poiret One', cursive; */
 .main {
   padding: 0 0 0 3.5vw;
   margin: 0;
-  height: 50vh;
-  background: #0026ff;
+  height: 35vh;
+  background: #0026ff6b;
   font-family: "Limelight", cursive;
   display: flex;
-  color: black;
-  /* justify-content: center; */
+  color: white;
   align-items: center;
 }
 
@@ -62,34 +61,33 @@ font-family: 'Poiret One', cursive; */
   font-size: 5vw;
   font-family: "Poiret One", cursive;
   position: relative;
-  /* animation: glitch 5s 55s infinite; */
   padding: 2.5vw;
 }
-/* @keyframes glitch {
-  1% {
-    transform: rotateX(10deg) skewX(90deg);
-  }
-  2% {
-    transform: rotateX(0deg) skewX(0deg);
-  }
-} */
 /* ------------------------------SKILLS GRID-------------------------- */
 .iconContainer {
-  background-color: coral;
+  background-color: rgb(188, 232, 228);
   text-align: center;
-  padding: 20px;
+  padding: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1vw;
+  flex-wrap: wrap;
 }
 .singleIconContainer {
+  height: 10vh;
+  position: relative;
   font-size: 0px;
   color: transparent;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 .singleIconContainer:hover {
   color: black;
-  font-size: 12px;
+  font-size: 1.5vh;
 }
-/* .icon {
-
-} */
+.span {
+  padding: 100px;
+}

@@ -13,6 +13,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>API</span>
         </div>
 
@@ -24,6 +25,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>AXIOS</span>
         </div>
 
@@ -35,6 +37,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>BOOTSTRAP</span>
         </div>
 
@@ -46,6 +49,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>CANVAS</span>
         </div>
 
@@ -57,6 +61,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>CSS</span>
         </div>
 
@@ -68,6 +73,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>FETCH</span>
         </div>
 
@@ -79,6 +85,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>GITHUB</span>
         </div>
 
@@ -90,6 +97,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>HEROKU</span>
         </div>
 
@@ -101,6 +109,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>HTML</span>
         </div>
 
@@ -112,6 +121,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>JQUERY</span>
         </div>
 
@@ -123,6 +133,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>JAVA SCRIPT</span>
         </div>
 
@@ -134,6 +145,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>JSON</span>
         </div>
 
@@ -145,6 +157,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>MERN AUTH</span>
         </div>
 
@@ -156,6 +169,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>MONGO</span>
         </div>
 
@@ -167,6 +181,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>NODE JS</span>
         </div>
 
@@ -178,6 +193,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>PYTHON</span>
         </div>
 
@@ -189,6 +205,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>REACT</span>
         </div>
 
@@ -200,6 +217,7 @@ export default function Skills() {
             height={50}
             width={50}
           />
+          <br />
           <span>SQL</span>
         </div>
       </div>
