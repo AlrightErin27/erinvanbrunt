@@ -4,6 +4,9 @@
 font-family: 'Limelight', cursive;
 font-family: 'Poiret One', cursive; */
 
+.all {
+  background-color: darkblue;
+}
 /* ---------------------HOME PG-------------------- */
 .main {
   padding: 0 0 0 3.5vw;
@@ -12,7 +15,7 @@ font-family: 'Poiret One', cursive; */
   background: #0026ff6b;
   font-family: "Limelight", cursive;
   display: flex;
-  color: white;
+  color: rgb(255, 255, 255);
   align-items: center;
 }
 
@@ -20,12 +23,12 @@ font-family: 'Poiret One', cursive; */
 /* GLOW ANIMATION */
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff58a,
-      0 0 40px #e6e600db, 0 0 50px #e6e600eb, 0 0 60px #00e696, 0 0 70px #00e6d7;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff58aa1,
+      0 0 40px #00e69ddb, 0 0 50px #00e6bceb, 0 0 60px #00e696, 0 0 70px #00e6d7;
   }
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #4dcaff, 0 0 40px #4d53ff,
-      0 0 50px #e1e1f0b8, 0 0 60px #fff04d, 0 0 70px #4dbbff, 0 0 80px #fffda4;
+      0 0 50px #e1e1f0b8, 0 0 60px #4dffe4, 0 0 70px #4dbbff, 0 0 80px #fffda4ac;
   }
 }
 .letters {
@@ -71,7 +74,7 @@ font-family: 'Poiret One', cursive; */
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5vw;
+  gap: 0.8vw;
   flex-wrap: wrap;
 }
 .singleIconContainer {
@@ -101,18 +104,19 @@ font-family: 'Poiret One', cursive; */
 .resumeButton {
   font-size: 1.8vw;
   height: 5vh;
-  width: 13vw;
+  width: 23vw;
   font-family: "Limelight", cursive;
   margin: 3vh 0 3vh 0;
   background-color: rgb(73, 121, 121);
-}
-/* ------------------------------Projects-------------------------- */
-.projectsContainer {
-  background-color: rgba(227, 244, 242, 0.695);
+  border: none;
 }
 .resumeButton:hover {
-  background-color: rgb(27, 36, 36);
+  background-color: rgba(27, 36, 36, 0.88);
   color: white;
+}
+/* ------------------------------PROJECTS-------------------------- */
+.projectsContainer {
+  background-color: rgba(227, 244, 242, 0.695);
 }
 .projects {
   font-family: "Damion", cursive;
@@ -125,9 +129,15 @@ font-family: 'Poiret One', cursive; */
   width: 19vw;
   margin: 0 1vw 3vh 3vw;
   font-family: "Limelight", cursive;
-  background-color: rgb(236, 224, 249);
+  background-color: rgba(236, 224, 249, 0.832);
+  border: none;
 }
 .projectsButton:hover {
-  background-color: rgb(105, 86, 126);
+  background-color: rgba(105, 86, 126, 0.729);
   color: white;
+}
+/* ------------------------------FOOTER-------------------------- */
+.footer {
+  background-color: rgba(255, 89, 0, 0.133);
+  height: 100vh;
 }

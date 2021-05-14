@@ -2,6 +2,7 @@ import Head from "next/head";
 import Skills from "../pages/skills";
 import Resume from "../pages/resume";
 import Projects from "../pages/projects";
+import Footer from "../pages/footer";
 import styles from "../styles/Home.module.css";
 import React, { useState } from "react";
 // import Image from "next/image";
@@ -151,6 +152,7 @@ export default function Home() {
       <Skills />
       <Resume />
       <Projects />
+      <Footer />
     </div>
   );
 }
