@@ -71,12 +71,11 @@ font-family: 'Poiret One', cursive; */
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1vw;
+  gap: 0.5vw;
   flex-wrap: wrap;
 }
 .singleIconContainer {
   object-fit: fill;
-  height: 10vh;
   position: relative;
   font-size: 0px;
   color: transparent;
