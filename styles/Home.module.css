@@ -23,12 +23,13 @@ font-family: 'Poiret One', cursive; */
 /* GLOW ANIMATION */
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff58aa1,
-      0 0 40px #00e69ddb, 0 0 50px #00e6bceb, 0 0 60px #00e696, 0 0 70px #00e6d7;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8afff7a1,
+      0 0 40px #00e6debc, 0 0 50px #00e6bc99, 0 0 60px #00e696bd,
+      0 0 70px #00e6d7;
   }
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #4dcaff, 0 0 40px #4d53ff,
-      0 0 50px #e1e1f0b8, 0 0 60px #4dffe4, 0 0 70px #4dbbff, 0 0 80px #fffda4ac;
+      0 0 50px #e1e1f0b8, 0 0 60px #4dffe4, 0 0 70px #4dbbff, 0 0 80px #a4ffdbac;
   }
 }
 .letters {
@@ -138,6 +139,24 @@ font-family: 'Poiret One', cursive; */
 }
 /* ------------------------------FOOTER-------------------------- */
 .footer {
-  background-color: rgba(255, 89, 0, 0.133);
-  height: 100vh;
+  background-color: rgba(255, 89, 0, 0.058);
+  height: 50vh;
+}
+.contactContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.contactButton {
+  background-color: transparent;
+  border: none;
+  margin-top: 10vh;
+  font-family: "Damion", cursive;
+  font-size: 2.8vw;
+  text-decoration: underline;
+  color: rgba(30, 27, 36, 0.88);
+}
+.contactButton:hover {
+  color: rgba(207, 190, 251, 0.77);
 }
