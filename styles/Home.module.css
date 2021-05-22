@@ -115,6 +115,19 @@ font-family: 'Poiret One', cursive; */
 .resumeButton:hover {
   background-color: rgba(27, 36, 36, 0.88);
   color: white;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+.resumeLink {
+  text-decoration: none;
+}
+/* ------------------------------PAPER RESUME (ADD. PG)-------------------------- */
+.resumeLink {
+  object-fit: fill;
+  position: relative;
+  /* align-items: center;
+  justify-content: center; */
 }
 /* ------------------------------PROJECTS-------------------------- */
 .projectsContainer {
@@ -137,6 +150,9 @@ font-family: 'Poiret One', cursive; */
 .projectsButton:hover {
   background-color: rgba(105, 86, 126, 0.729);
   color: white;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 }
 .infoButton {
   font-size: 1vw;
@@ -151,6 +167,9 @@ font-family: 'Poiret One', cursive; */
 .infoButton:hover {
   color: white;
   background-color: rgb(100, 66, 132);
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 }
 /* ------------------------------FOOTER-------------------------- */
 .footer {
@@ -174,4 +193,7 @@ font-family: 'Poiret One', cursive; */
 }
 .contactButton:hover {
   color: rgba(207, 190, 251, 0.77);
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 }
