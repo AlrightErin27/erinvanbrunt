@@ -128,7 +128,7 @@ font-family: 'Poiret One', cursive; */
 .projectsButton {
   font-size: 1.5vw;
   height: 5vh;
-  width: 19vw;
+  width: 17vw;
   margin: 0 1vw 3vh 3vw;
   font-family: "Limelight", cursive;
   background-color: rgba(236, 224, 249, 0.832);
@@ -137,6 +137,20 @@ font-family: 'Poiret One', cursive; */
 .projectsButton:hover {
   background-color: rgba(105, 86, 126, 0.729);
   color: white;
+}
+.infoButton {
+  font-size: 1vw;
+  height: 5vh;
+  width: 4vw;
+  margin: 0 0 3vh -0.7vw;
+  font-family: "Poiret One", cursive;
+  background-color: rgba(185, 137, 237, 0.667);
+  border: none;
+  border-radius: 50%;
+}
+.infoButton:hover {
+  color: white;
+  background-color: rgb(100, 66, 132);
 }
 /* ------------------------------FOOTER-------------------------- */
 .footer {
@@ -156,7 +170,7 @@ font-family: 'Poiret One', cursive; */
   font-family: "Damion", cursive;
   font-size: 2.8vw;
   text-decoration: underline;
-  color: rgba(30, 27, 36, 0.88);
+  color: black;
 }
 .contactButton:hover {
   color: rgba(207, 190, 251, 0.77);
