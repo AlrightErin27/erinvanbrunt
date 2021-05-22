@@ -174,7 +174,7 @@ font-family: 'Poiret One', cursive; */
 /* ------------------------------FOOTER-------------------------- */
 .footer {
   background-color: rgba(255, 89, 0, 0.058);
-  height: 50vh;
+  height: 15rem;
 }
 .contactContainer {
   display: flex;

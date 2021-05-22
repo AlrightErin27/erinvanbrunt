@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function paperResume() {
   return (
-    <div className={styles.paperResumeDisplay}>
+    <div>
       <Image
         className={styles.paperResume}
         src="/ResumePort1.jpg"
