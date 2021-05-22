@@ -87,6 +87,7 @@ font-family: 'Poiret One', cursive; */
   align-items: center;
   justify-content: center;
   padding: 1px;
+  font-family: "Poiret One", cursive;
 }
 .singleIconContainer:hover {
   color: black;
