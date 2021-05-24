@@ -37,16 +37,16 @@ export default function projects() {
         </Link>
       </button>
       {/* -----------------P4--------------------------- */}
-      <button className={styles.projectsButton}>
+      {/* <button className={styles.projectsButton}>
         <Link href="https://adventurewanderingsoul.herokuapp.com/">
           ADVENTURE
         </Link>
-      </button>
-      <button className={styles.infoButton}>
+      </button> */}
+      {/* <button className={styles.infoButton}>
         <Link href="https://github.com/AlrightErin27/p4_ChooseYouOwnAdventure/blob/main/README.md">
           INFO
         </Link>
-      </button>
+      </button> */}
     </div>
   );
 }

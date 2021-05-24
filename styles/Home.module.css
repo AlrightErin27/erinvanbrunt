@@ -7,6 +7,17 @@ font-family: 'Poiret One', cursive; */
 .all {
   background-color: darkblue;
 }
+/* ---------------------* LINKS-------------------- */
+.linkA {
+  color: inherit;
+  text-decoration: none;
+  outline: 2px solid red;
+}
+
+#resume {
+  color: red;
+}
+
 /* ---------------------HOME PG-------------------- */
 .main {
   padding: 0 0 0 3.5vw;
@@ -119,9 +130,6 @@ font-family: 'Poiret One', cursive; */
   cursor: -moz-grab;
   cursor: -webkit-grab;
 }
-.resumeLink {
-  text-decoration: none;
-}
 /* ------------------------------PAPER RESUME (ADD. PG)-------------------------- */
 .resumeLink {
   object-fit: fill;
@@ -141,7 +149,7 @@ font-family: 'Poiret One', cursive; */
 .projectsButton {
   font-size: 1.5vw;
   height: 5vh;
-  width: 17vw;
+  width: 23vw;
   margin: 0 1vw 3vh 3vw;
   font-family: "Limelight", cursive;
   background-color: rgba(236, 224, 249, 0.832);

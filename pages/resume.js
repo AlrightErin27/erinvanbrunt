@@ -6,7 +6,7 @@ export default function resume() {
   return (
     <div className={styles.resumeContainer}>
       <button className={styles.resumeButton}>
-        <Link href="/paperResume" rel="resume" className={styles.resumeLink}>
+        <Link href="/paperResume" rel="resume">
           RESUME
         </Link>
       </button>
