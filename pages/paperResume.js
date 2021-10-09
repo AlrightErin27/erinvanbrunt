@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function paperResume() {
   return (
     <div>
-      <Image
+      {/* <Image
         className={styles.paperResume}
         src="/ResumePort1.jpg"
         alt="resume1"
@@ -17,7 +18,8 @@ export default function paperResume() {
         alt="resume2"
         height={1150}
         width={950}
-      />
+      /> */}
+      <Link></Link>
     </div>
   );
 }
